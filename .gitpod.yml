@@ -1,0 +1,4 @@
+image: yaelvinker/clipasso_docker
+tasks:
+  - name: clipasso
+    init: docker run --name clipsketch -it yaelvinker/clipasso_docker /bin/bash
